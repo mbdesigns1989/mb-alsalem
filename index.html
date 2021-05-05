@@ -8,23 +8,27 @@
 
   <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-  <h1> hello world</h1>
+
    
      <header id="header">
-       <img src="/img/product-landing-page-logo.png" alt="" id="header-img">
-       <nav>
+       <img src="product-landing-page-logo copy.png" alt="" id="header-img">
+       <nav id="nav-bar">
          <ul>
-           <li><a href="Features">Features</a></li>
-           <li><a href="How it Works">How it Works</a></li>
-           <li><a href="Pricing">Pricing</a></li>
+           <li class="nav-link"><a href="https://cdpn.io/freeCodeCamp/fullpage/RKRbwL#features">Features</a></li>
+           <li class="nav-link"><a href="https://cdpn.io/freeCodeCamp/fullpage/RKRbwL#how-it-works">How it Works</a></li>
+           <li class="nav-link"><a href="https://cdpn.io/freeCodeCamp/fullpage/RKRbwL#pricing">Pricing</a></li>
          </ul>
        </nav>
      </header>
      
-      <section>
-        
+      <section id="video">
+        <iframe   width="727" height="409" src="https://www.youtube.com/embed/y8Yv4pnO7qc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>        
       </section>
-    
+      <form id="form">
+        <label for="email">Enter your email:</label>
+        <input type="email" id="email" name="email"  placeholder="sophie@example.com">
+        <input type="submit" value="Send Request" formaction="https://www.freecodecamp.com/email-submit">
+      </form>
 
     
     <script  src="js/index.js"></script>

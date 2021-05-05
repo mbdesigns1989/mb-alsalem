@@ -29,7 +29,7 @@ nav ul {
 }
 
 
-li{
+.nav-link{
     display: flex;
     list-style-type: none;
 }
